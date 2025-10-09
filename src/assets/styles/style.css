@@ -9,3 +9,38 @@
 .test {
     color: red !important;
 }
+
+.paraghrap {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+} 
+
+.header1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.header2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.header3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.header4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.formdesign input, textarea{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4.
+}
