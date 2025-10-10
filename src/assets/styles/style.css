@@ -38,9 +38,28 @@
     color: #1F3F68;
 }
 
-.formdesign input, textarea{
+.formdesign input, textarea {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4.
+    opacity: 0.4;
+}
+
+.formdesign {
+    background-image: url(../img/flowerboy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submit-button {
+    background: linear-gradient(to right, #4d72e5, #7061e8, #8a55e8);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 100px;
 }
