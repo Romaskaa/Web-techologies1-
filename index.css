@@ -1,0 +1,40 @@
+@import "./fonts.css";
+
+.header-menu-links p, 
+.header-menu-contacts-info div, 
+.header-menu-contacts-info-phones p, 
+.header-menu-contacts-info-mail p {
+    display: inline-block;
+}
+
+.header-menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    width: 90%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header-menu-contacts-info-phones img,
+.header-menu-contacts-info-mail img {
+    vertical-align: middle; 
+}
+
+.header-menu-links, .header-menu-contacts-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Inter';
+}
