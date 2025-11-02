@@ -12,20 +12,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 15px;
     position: fixed;
     left: 0;
     right: 0;
-    margin: 0 auto; 
-    width: 90%;
-    max-width: 1200px;
+    margin: 20px auto; 
+    width: 85%;
+    max-width: 1000px;
     padding: 0 20px;
     box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgba(149, 148, 148, 0.259);
+}
+.header-menu-contacts-info-phones p{
+    margin-right: 10px;
 }
 
 .header-menu-contacts-info-phones img,
 .header-menu-contacts-info-mail img {
-    vertical-align: middle; 
+    vertical-align: middle;
+    margin-right: 5px; 
 }
 
 .header-menu-links, .header-menu-contacts-info {
@@ -34,7 +39,24 @@
     gap: 8px;
 }
 
+.header-menu-contacts-info{
+    gap: 20px;
+}
+
 body{
-    background-color: grey;
+    background-color: #F2F4F7;
     font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1{
+    color: #2D66EE;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-menu-contacts-info{
+    color: #2D66EE;
+    padding: 0 20px;
 }
