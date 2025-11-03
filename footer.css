@@ -1,4 +1,47 @@
-.footer-website{
+@import "./fonts.css";
+
+.footer-website {
     background-color: #101828;
     color: #FFFFFF;
+    border-radius: 12px;
+    font-family: "Inter";
+    font-weight: 700;
+    width: 1224px;
+    height: 222px;
+    padding: 20px;
+    margin: 0 auto 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts-header, .island {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contacts-number,
+.contacts-post,
+.contacts-adress,
+.contacts-request {
+    margin-right: 140px;
+}
+
+.contacts-header {
+    height: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+.island {
+    justify-content: center;
+    vertical-align: bottom;
 }
