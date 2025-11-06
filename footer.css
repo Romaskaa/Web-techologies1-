@@ -1,0 +1,67 @@
+@import "./fonts.css";
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.h2-footer {
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.footer-website {
+    background-color: #101828;
+    color: #FFFFFF;
+    border-radius: 12px;
+    width: 1224px;
+    height: 222px;
+    padding: 24px;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts-header, .island {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contacts-number,
+.contacts-post,
+.contacts-adress,
+.contacts-request {
+    width: 294px;
+    height: 54px;
+}
+
+.contacts-header {
+    height: 18px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    color: #98A2B3;
+}
+
+.island {
+    justify-content: center;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.connection {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 17px;
+}
