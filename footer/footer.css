@@ -1,16 +1,16 @@
 @import "./fonts.css";
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .h2-footer {
     text-align: center;
     font-family: "Inter";
     font-weight: 700;
     font-size: 36px;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 .footer-website {
