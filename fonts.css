@@ -71,8 +71,8 @@
 }
 
 @font-face {
-    font-family: "Inter";
-    src: local('Inter'), local('SFProText-Regular'), local('SFProText Regular'),
+    font-family: "SF Pro Text";
+    src: local('SFProText'), local('SFProText-Regular'), local('SFProText Regular'),
          url("static/fonts/SFProText-Regular.ttf") format("truetype"),
          url("static/fonts/SFProText-Regular.woff2") format("woff");
     font-weight: 400;
