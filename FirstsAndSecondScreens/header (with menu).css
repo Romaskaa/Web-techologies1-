@@ -43,7 +43,8 @@ a {
     z-index: 1;
 }
 
-.header-menu svg, .cross {
+.header-menu svg, .cross, 
+.header-menu-contacts-info-phones .second-phone img:nth-child(1) {
     display: none;
 }
 
@@ -78,41 +79,71 @@ a {
 
 @media screen and (max-width: 768px) {
     .header-menu {
-        position: fixed;
-        height: 90px;
-        margin: 8px;
+        position: absolute;
+        height: 940px;
+        margin: 0px;
         background: #ffffff;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 12px; 
-        min-width: 740px;
+        box-shadow: 0px 4px 4px 0px #00000080;
+        min-width: 752px;
+        display: flex;
+        border-radius: 0;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: center;
     }
 
-    .header-menu .burger2, .cross{
+    .header-menu .burger2, .header-menu .burger1{
         display: none;
+    }
+
+    .header-menu-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-menu-contacts-info-phones .second-phone img:nth-child(1) {
+        display: inline;
     }
 
     .h1-header {
-        margin-left: 120px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.154px;
     }
 
-    .header-menu-links, 
-    .header-menu-contacts-info .header-menu-contacts-info-phones {
-        display: none;
+    .header-menu-links p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 144%;
+        letter-spacing: 0.326451px;
+        color: #101828;
+        margin: 8px;
+    }
+
+    .header-menu-links {
+        margin: 45px 0px 45px 0px;
+    }
+
+    .cross {
+        position: absolute;
+        left: 572px;
+        top: 41px;
     }
 
     .header-menu svg {
-        display:block;
+        display: block;
     }
 
     .header-menu-contacts-info {
         font-family: 'SF Pro Text';
         font-weight: 500;
         font-style: Medium;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 18px;
         letter-spacing: -0.15px;
         gap: 0px;
@@ -130,6 +161,9 @@ a {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .header-menu .burger1,
@@ -140,12 +174,23 @@ a {
     .cross {
         position: absolute;
         left: 340px;
-        top: 40px;
+        top: 20px;
     }
 
     .header-menu-links, 
     .header-menu-contacts-info .header-menu-contacts-info-phones {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .header-menu-contacts-info-phones .second-phone img:nth-child(1) {
+        display: inline;
+    }
+
+    .header-menu-contacts-info {
+        display: flex;
+        flex-direction: column;
     }
 
     .h1-header {
@@ -155,5 +200,28 @@ a {
         line-height: 18px;
         letter-spacing: -0.154px;
         margin-left: 0px;
+    }
+
+    .header-menu-links p {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144%;
+        letter-spacing: 0.33px;
+        color: #101828;
+        margin: 8px;
+    }
+
+    .header-menu-links {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .header-menu-contacts-info p {
+        font-family: "SF Pro Text";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.15px;
     }
 }
