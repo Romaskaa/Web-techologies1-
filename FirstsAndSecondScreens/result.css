@@ -1,0 +1,76 @@
+@import "../header.css";
+@import "../footer.css";
+@import "./firstscreen.css";
+@import "./secondscreen.css";
+
+body{
+    display: grid;
+    grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+    grid-template-areas:
+    "header"
+    "main"
+    "full-development"
+    "projects-industries"
+    "projects"
+    "discussion"
+    "application-development-stages"
+    "team-and-photo"
+    "get-free-book"
+    "faq"
+    "footer";
+    margin: 0;
+}
+
+.projects-industries-section {
+    grid-area: projects-industries;
+}
+
+.projects-section {
+    grid-area: projects;
+}
+
+.application-development-stages-section {
+    grid-area: application-development-stages;
+    background-color: #FFFFFF;
+}
+
+.discussion-section {
+    grid-area: discussion;
+    background-color: #2D66EE;
+}
+
+.team-and-photo-section {
+    grid-area: team-and-photo;
+}
+
+.get-free-book-section {
+    grid-area: get-free-book;
+    background-color: #2D66EE;
+}
+
+.faq-section {
+    grid-area: faq;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: grid;
+        grid-template-rows: 0px 855px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+        grid-template-areas:
+        "header"
+        "main"
+        "full-development"
+        "projects-industries"
+        "projects"
+        "discussion"
+        "application-development-stages"
+        "team-and-photo"
+        "get-free-book"
+        "faq"
+        "footer";
+        margin: 0;
+    }
+
+}
+
