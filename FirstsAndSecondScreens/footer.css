@@ -1,4 +1,4 @@
-@import "./fonts.css";
+@import "../fonts.css";
 
 a {
     text-decoration: none;
@@ -68,7 +68,7 @@ a {
 
 @media screen and (max-width: 768px) {
     .footer-website {
-        width: 767px;
+        width: 700px;
         height: 241px;
         background: #101828;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
@@ -95,6 +95,89 @@ a {
 
     .contacts-header p {
         width: 105px;
+        height: 18px;
+        font-family: 'SF Pro Text';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.154px;
+        color: #98A2B3;
+    }
+
+    .connection {
+        width: 176px;
+        height: 22px;
+        font-family: 'SF Pro Text';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: #FFFFFF;
+    }
+
+    .island p{
+        width: 160px;
+        height: 16px;
+        font-family: 'SF Pro Text';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.078px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-website {
+        position: absolute;
+        width: 335px;
+        height: 270px;
+        left: 1px;
+        top: 8194px;
+        background: #101828;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        width: 375px;
+        height: 142px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    
+    .contacts-number {
+        order: 0;
+        margin-left: 10px;
+    }
+
+    .contacts-post {
+        order: 2;
+        margin-left: -72px;
+    }
+
+    .contacts-adress {
+        order: 1;
+        margin: 30px 0px 0px 10px;
+    }
+
+    .contacts-request {
+        order: 3;
+        margin: 30px 0px 0px -72px;
+    }
+
+    .h2-footer {
+        font-family: "Inter";
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 18px;
+        letter-spacing: -0.15px;
+    }
+
+    .contacts-header p {
+        width: 106px;
         height: 18px;
         font-family: 'SF Pro Text';
         font-weight: 500;

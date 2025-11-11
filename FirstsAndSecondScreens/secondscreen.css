@@ -221,3 +221,19 @@
         top: -50px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .full-development {
+        position: absolute;
+        width: 428px;
+        top: 250px;
+    }
+
+    .developments-attribute {
+        position: absolute;
+        width: 233px;
+        height: 340px;
+        left: 68px;
+        top: 1335px;
+    }
+}
