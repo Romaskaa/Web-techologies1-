@@ -1,7 +1,7 @@
-@import "/FirstsAndSecondScreens/screens(css and scss)/header/header (with menu).css";
-@import "/FirstsAndSecondScreens/screens(css and scss)/footer/footer.css";
-@import "/FirstsAndSecondScreens/screens(css and scss)/firstscreen/firstscreen.css";
-@import "/FirstsAndSecondScreens/screens(css and scss)/secondscreen/secondscreen.css";
+@import "../header/header (with menu).css";
+@import "../footer/footer.css";
+@import "../firstscreen/firstscreen.css";
+@import "../secondscreen/secondscreen.css";
 body {
   display: grid;
   grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
