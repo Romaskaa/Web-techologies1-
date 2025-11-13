@@ -350,9 +350,6 @@
     letter-spacing: -0.24px;
     color: #101828;
   }
-  .main img:nth-child(1) {
-    display: none;
-  }
   .main .group-of-images2 {
     display: inline;
     position: absolute;
