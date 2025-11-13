@@ -2,98 +2,63 @@
 @import "./footer.css";
 @import "./firstscreen.css";
 @import "./secondscreen.css";
-
-body{
-    display: grid;
-    grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
-    grid-template-areas:
-    "header"
-    "main"
-    "full-development"
-    "projects-industries"
-    "projects"
-    "discussion"
-    "application-development-stages"
-    "team-and-photo"
-    "get-free-book"
-    "faq"
-    "footer";
-    margin: 0;
+body {
+  display: grid;
+  grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+  grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
+  margin: 0;
 }
 
 .projects-industries-section {
-    grid-area: projects-industries;
+  grid-area: projects-industries;
 }
 
 .projects-section {
-    grid-area: projects;
+  grid-area: projects;
 }
 
 .application-development-stages-section {
-    grid-area: application-development-stages;
-    background-color: #FFFFFF;
+  grid-area: application-development-stages;
+  background-color: #FFFFFF;
 }
 
 .discussion-section {
-    grid-area: discussion;
-    background-color: #2D66EE;
+  grid-area: discussion;
+  background-color: #2D66EE;
 }
 
 .team-and-photo-section {
-    grid-area: team-and-photo;
+  grid-area: team-and-photo;
 }
 
 .get-free-book-section {
-    grid-area: get-free-book;
-    background-color: #2D66EE;
+  grid-area: get-free-book;
+  background-color: #2D66EE;
 }
 
 .faq-section {
-    grid-area: faq;
-    background-color: #FFFFFF;
+  grid-area: faq;
+  background-color: #FFFFFF;
 }
 
 .footer-section {
-    grid-area: footer;
-    background-color: #FFFFFF;
+  grid-area: footer;
+  background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px){
-    body {
-        display: grid;
-        grid-template-rows: 0px 855px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
-        grid-template-areas:
-        "header"
-        "main"
-        "full-development"
-        "projects-industries"
-        "projects"
-        "discussion"
-        "application-development-stages"
-        "team-and-photo"
-        "get-free-book"
-        "faq"
-        "footer";
-        margin: 0;
-    }
+@media screen and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-rows: 0px 855px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+    grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
+    margin: 0;
+  }
 }
-
-@media screen and (max-width: 425px){
-    body {
-        display: grid;
-        grid-template-rows: 0px 1170px 800px 400px 1253px 669px 1800px 646px 923px 672px 230px;
-        grid-template-areas:
-        "header"
-        "main"
-        "full-development"
-        "projects-industries"
-        "projects"
-        "discussion"
-        "application-development-stages"
-        "team-and-photo"
-        "get-free-book"
-        "faq"
-        "footer";
-        margin: 0;
-    }
-}
+@media screen and (max-width: 425px) {
+  body {
+    display: grid;
+    grid-template-rows: 0px 1170px 800px 400px 1253px 669px 1800px 646px 923px 672px 230px;
+    grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
+    margin: 0;
+  }
+}/*# sourceMappingURL=result.css.map */
