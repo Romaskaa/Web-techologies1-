@@ -2,11 +2,23 @@
 @import "../footer/footer.css";
 @import "../firstscreen/firstscreen.css";
 @import "../secondscreen/secondscreen.css";
+@import "../thirdscreen/thirdscreen.css";
+@import "../fourthscreen/fourthscreen.css";
+@import "../fifthscreen/fifthscreen.css";
 body {
   display: grid;
-  grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+  grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 672px 350px;
   grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
   margin: 0;
+}
+
+.main-section {
+  grid-area: main;
+}
+
+.full-development-section {
+  grid-area: full-development;
+  background-color: #FFFFFF;
 }
 
 .projects-industries-section {

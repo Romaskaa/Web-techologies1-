@@ -1,0 +1,30 @@
+.discussion-section {
+  width: 1440px;
+  position: relative;
+}
+
+.discussion-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../../src/assets/img/noise.png");
+  opacity: 0.3;
+  mix-blend-mode: overlay;
+}
+
+.discussion svg:nth-of-type(1) {
+  position: absolute;
+  width: 1440px;
+  height: 258.13px;
+  left: 0px;
+  top: 50px;
+  opacity: 0.48;
+}
+
+.discussion-title {
+  position: relative;
+  z-index: 1;
+}/*# sourceMappingURL=fifthscreen.css.map */

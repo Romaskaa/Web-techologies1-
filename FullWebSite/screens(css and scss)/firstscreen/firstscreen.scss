@@ -16,10 +16,6 @@
     }
 }
 
-.main-section {
-    grid-area: main;
-}
-
 .main {
     width: 1440px;
     height: 740px;
@@ -194,6 +190,7 @@
     font-size: 14px;
     font-weight: 600;
     text-align: left;
+    cursor: pointer;
 }
 
 .main .group-of-images2 {
