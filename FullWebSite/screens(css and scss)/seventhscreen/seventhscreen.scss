@@ -1,0 +1,88 @@
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 600px;
+    height: 341px;
+    margin: 40px 0px 0px 108px;
+
+    h2 {
+        width: 600px;
+        height: 52px;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 144%;
+        letter-spacing: 0.326451px;
+        color: #101828;
+    }
+
+    p {
+        width: 600px;
+        height: 40px;
+        font-family: 'SF Pro Text';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+        color: #101828;
+    }
+
+    .team-info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 0px;
+        gap: 16px;
+        width: 584px;
+        height: 113px;
+
+        .our-team-members, .our-team-projects, .our-team-in-it{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 8px;
+            width: 184px;
+            height: 97px;
+
+            h3 {
+                height: 69px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 144%;
+                letter-spacing: 0.326451px;
+                color: #101828;
+            }
+
+            p {
+                width: 184px;
+                height: 20px;
+                font-family: 'SF Pro Text';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: -0.24px;
+                color: #667085;
+            }
+        }
+    }
+}
+
+.image-player {
+    position: absolute;
+    width: 600px;
+    height: 413px;
+    left: 732px;
+    top: 4130px;
+    background-image: url("../../../src/assets/img/team.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

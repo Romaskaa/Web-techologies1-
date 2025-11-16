@@ -1,0 +1,135 @@
+.application-development-stages h2 {
+  width: 600px;
+  height: 52px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+  margin: 80px 0px 40px 108px;
+}
+
+.dev-stages {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 440px;
+  width: 1224px;
+  height: 564px;
+  left: 108px;
+  top: 166px;
+  margin: 15px 0px 0px 108px;
+}
+
+.image-and-caption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 150px;
+  height: 48px;
+  margin-bottom: -5px;
+}
+.image-and-caption h3 {
+  width: 78px;
+  height: 24px;
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+}
+
+.dev-stages-left, .dev-stages-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 392px;
+}
+
+.application-development-stages-analysis, .application-development-stages-design,
+.application-development-stages-development, .application-development-stages-testing,
+.application-development-stages-launching, .application-development-stages-support {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px 0px 24px;
+  gap: 6px;
+  width: 368px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+.application-development-stages-analysis p, .application-development-stages-design p,
+.application-development-stages-development p, .application-development-stages-testing p,
+.application-development-stages-launching p, .application-development-stages-support p {
+  width: 344px;
+  height: 80px;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+}
+
+.application-development-stages-analysis {
+  height: 168px;
+}
+.application-development-stages-analysis svg {
+  position: absolute;
+  left: 414px;
+  top: 3422px;
+}
+
+.application-development-stages-design {
+  margin-top: -20px;
+  height: 148px;
+}
+.application-development-stages-design svg {
+  position: absolute;
+  left: 369px;
+  top: 3618px;
+}
+
+.application-development-stages-development {
+  height: 148px;
+}
+.application-development-stages-development svg {
+  position: absolute;
+  left: 362px;
+  top: 3814px;
+}
+
+.application-development-stages-testing {
+  height: 148px;
+}
+.application-development-stages-testing svg {
+  position: absolute;
+  left: 1184px;
+  top: 3422px;
+}
+
+.application-development-stages-launching {
+  height: 148px;
+}
+.application-development-stages-launching svg {
+  position: absolute;
+  left: 1198px;
+  top: 3618px;
+}
+
+.application-development-stages-support {
+  height: 148px;
+}
+.application-development-stages-support svg {
+  position: absolute;
+  left: 1193px;
+  top: 3814px;
+}/*# sourceMappingURL=sixthscreen.css.map */

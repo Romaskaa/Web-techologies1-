@@ -5,6 +5,8 @@
 @import "../thirdscreen/thirdscreen.css";
 @import "../fourthscreen/fourthscreen.css";
 @import "../fifthscreen/fifthscreen.css";
+@import "../sixthscreen/sixthscreen.css";
+@import "../seventhscreen/seventhscreen.css";
 
 body{
     display: grid;
@@ -26,48 +28,58 @@ body{
 
 .main-section {
     grid-area: main;
+    width: 1440px;
 }
 
 .full-development-section {
     grid-area: full-development;
     background-color: #FFFFFF;
+    width: 1440px;
 }
 
 .projects-industries-section {
     grid-area: projects-industries;
+    width: 1440px;
 }
 
 .projects-section {
     grid-area: projects;
+    width: 1440px;
 }
 
 .application-development-stages-section {
     grid-area: application-development-stages;
     background-color: #FFFFFF;
+    width: 1440px;
 }
 
 .discussion-section {
     grid-area: discussion;
     background-color: #2D66EE;
+    width: 1440px;
 }
 
 .team-and-photo-section {
     grid-area: team-and-photo;
+    width: 1440px;
 }
 
 .get-free-book-section {
     grid-area: get-free-book;
     background-color: #2D66EE;
+    width: 1440px;
 }
 
 .faq-section {
     grid-area: faq;
     background-color: #FFFFFF;
+    width: 1440px;
 }
 
 .footer-section {
     grid-area: footer;
     background-color: #FFFFFF;
+    width: 1440px;
 }
 
 @media screen and (max-width: 768px){
