@@ -1,0 +1,209 @@
+.get-free-book-section {
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('../../../src/assets/img/noise.png');
+        opacity: 0.3;
+        mix-blend-mode: overlay; 
+    }
+
+    .get-free-book {
+    
+        svg:nth-of-type(1) {
+            position: absolute;
+            width: 1440px;
+            height: 258.13px;
+            left: 0px;
+            top: 165px;
+            opacity: 0.3;
+        }
+        
+        .book-image {
+            position: absolute;
+            width: 600px;
+            height: 428px;
+            top: 10px;
+            left: 480px;
+            z-index: 1;
+
+            img:nth-of-type(1) {
+                position: absolute;
+                height: 650px;
+                left: 128px;
+                top: -46px;
+            }
+        }
+    }
+
+    .book-form-title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 600px;
+        height: 428px;
+        margin: 40px 0px 0px 108px;
+
+        h2 {
+            width: 600px;
+            height: 104px;
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 144%;
+            letter-spacing: 0.326451px;
+            color: #FCFCFD;
+            z-index: 1;
+            margin-bottom: 0;
+        }
+        
+        .book-form {
+            z-index: 1;
+        }
+
+        .book-form form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 24px;
+            width: 600px;
+            height: 284px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
+            border-radius: 12px;
+
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 11px 24px;
+                gap: 10px;
+                width: 225px;
+                height: 40px;
+                background: #2D66EE;
+                border-radius: 8px;
+                border: none;
+                font-family: 'SF Pro Text';
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: -0.154px;
+                color: #FFFFFF;
+                margin-right: 26px;
+            }
+
+            input {
+                font-family: 'SF Pro Text';
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px;
+                letter-spacing: -0.408px;
+                color: #101828;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 1px solid #E0E0E0;
+
+                &::placeholder {
+                    color: #101828;
+                }
+
+            }
+
+            .form-fields-book {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                width: 552px;
+                height: 172px;
+                margin-right: 26px;
+
+                label {
+                    font-family: 'SF Pro Text';
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 16px;
+                    letter-spacing: -0.078px;
+                    color: #667085;
+                }
+
+                .phone-and-name-field-book {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 24px;
+                    width: 552px;
+                    height: 86px;
+
+                    .phone-field {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 16px 0px;
+                        gap: 8px;
+                        width: 264px;
+                        height: 86px;
+
+                        .flag-and-input {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            padding: 0px;
+                            gap: 8px;
+                            height: 22px;
+
+                            img {
+                                position: absolute;
+                                margin-top: 2px;
+                            }
+
+                            input {
+                                padding-left: 24px;
+                                width: 264px;
+                            }
+                        }
+                    }
+
+                    .name-field {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 16px 0px;
+                        gap: 8px;
+                        width: 264px;
+                        height: 86px;
+
+                        input {
+                            width: 262px;
+                        }
+                    }
+                }
+
+                .email-field-book {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 16px 0px;
+                    gap: 8px;
+                    width: 552px;
+                    height: 86px;
+
+                    input{
+                        width: 551px;
+                    }
+                }
+            }
+        }
+    }
+}
