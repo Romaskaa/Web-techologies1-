@@ -171,6 +171,7 @@
 }
 .get-free-book-section .book-form-title .book-form form .form-fields-book .phone-and-name-field-book .name-field input {
   width: 262px;
+  padding-left: 0;
 }
 .get-free-book-section .book-form-title .book-form form .form-fields-book .email-field-book {
   display: flex;
@@ -183,4 +184,5 @@
 }
 .get-free-book-section .book-form-title .book-form form .form-fields-book .email-field-book input {
   width: 551px;
+  padding-left: 0;
 }/*# sourceMappingURL=eighthscreen.css.map */

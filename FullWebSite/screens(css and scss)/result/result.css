@@ -8,9 +8,10 @@
 @import "../sixthscreen/sixthscreen.css";
 @import "../seventhscreen/seventhscreen.css";
 @import "../eighthscreen/eighthscreen.css";
+@import "../ninthscreen/ninthscreen.css";
 body {
   display: grid;
-  grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 672px 350px;
+  grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 600px 350px;
   grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
   margin: 0;
 }

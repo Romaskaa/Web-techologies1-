@@ -1,0 +1,130 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 108px;
+  gap: 40px;
+}
+.faq .faq-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 600px;
+  height: 52px;
+  margin-bottom: 20px;
+}
+.faq .faq-title h2 {
+  width: 600px;
+  height: 52px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.326451px;
+  color: #101828;
+}
+.faq .questions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1224px;
+  height: 420px;
+}
+.faq .questions h3 {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #101828;
+}
+.faq .questions .left-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 600px;
+  height: 232px;
+}
+.faq .questions .left-questions .questions-cost-mobile-application, .faq .questions .left-questions .questions-application-guarantee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0px;
+  gap: 16px;
+  width: 600px;
+  height: 84px;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #D0D5DD;
+}
+.faq .questions .left-questions .questions-cost-mobile-application {
+  border-top: 0.5px solid #D0D5DD;
+}
+.faq .questions .left-questions .questions-application-guarantee {
+  padding-top: 0;
+}
+.faq .questions .right-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 600px;
+  height: 420px;
+}
+.faq .questions .right-questions .questions-duration {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 0px;
+  gap: 16px;
+  width: 600px;
+  height: 272px;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #D0D5DD;
+  border-top: 0.5px solid #D0D5DD;
+}
+.faq .questions .right-questions .questions-duration .questions-duration-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 524px;
+  height: 248px;
+}
+.faq .questions .right-questions .questions-duration .questions-duration-text h3 {
+  margin-top: 10px;
+}
+.faq .questions .right-questions .questions-duration .questions-duration-text p {
+  width: 524px;
+  height: 200px;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #101828;
+  margin-top: 0;
+}
+.faq .questions .right-questions .questions-duration .questions-duration-text p span {
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+.faq .questions .right-questions .questions-confidentiality-guarantee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 0px;
+  gap: 16px;
+  width: 600px;
+  height: 84px;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #D0D5DD;
+}/*# sourceMappingURL=ninthscreen.css.map */
