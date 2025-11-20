@@ -15,7 +15,7 @@
   mix-blend-mode: overlay;
 }
 
-.discussion svg:nth-of-type(1) {
+.discussion svg {
   position: absolute;
   width: 1440px;
   height: 258.13px;
@@ -185,4 +185,52 @@
   border: none;
   cursor: pointer;
   margin-right: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .discussion-section::before {
+    opacity: 0.1;
+  }
+  .discussion {
+    width: 600px;
+    height: 374px;
+  }
+  .discussion .discussion-title {
+    width: 344px;
+    height: 152px;
+    margin: -55px 0px 0px -81px;
+  }
+  .discussion .discussion-title h2 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.33px;
+    margin-bottom: 35px;
+  }
+  .discussion .discussion-title p {
+    width: 344px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .discussion .discussion-title p br {
+    display: none;
+  }
+  .discussion .discussion-form {
+    position: absolute;
+    left: -704px;
+    margin-top: 130px;
+  }
+  .discussion svg {
+    position: absolute;
+    width: 704px;
+    height: 159px;
+    left: 28px;
+    margin-top: 60px;
+    opacity: 0.3;
+    transform: scaleY(1.3);
+  }
 }/*# sourceMappingURL=fifthscreen.css.map */

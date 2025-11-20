@@ -78,7 +78,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     display: grid;
-    grid-template-rows: 0px 855px 550px 538px 800px 350px 810px 582px 588px 672px 350px;
+    grid-template-rows: 0px 855px 550px 538px 800px 428px 1391px 582px 588px 672px 350px;
     grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
     margin: 0;
   }

@@ -133,3 +133,50 @@
         top: 3814px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .application-development-stages {
+        h2 {
+
+            position: absolute;
+            width: 473px;
+            height: 40px;
+            left: 39px;
+            top: 3091px;
+        }
+
+        .dev-stages {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 32px;
+
+            .dev-stages-left {
+                gap: 32px;
+
+                .application-development-stages-analysis, 
+                .application-development-stages-design ,
+                .application-development-stages-development {
+                    width: 680px;
+                    height: 172px;
+                }
+
+                .application-development-stages-design {
+                    margin-top: 0;
+                }
+            }
+
+            .dev-stages-right {
+                gap: 32px;
+
+                .application-development-stages-testing, 
+                .application-development-stages-launching,
+                .application-development-stages-support {
+                    width: 680px;
+                    height: 172px;
+                }
+            }
+        }
+    }
+}
