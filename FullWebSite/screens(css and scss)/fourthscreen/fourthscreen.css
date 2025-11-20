@@ -275,4 +275,126 @@
   width: 600px;
   height: 326px;
   margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-section .projects .projects-name {
+    margin: 70px 0px 0px 26px;
+  }
+  .projects-section .projects .projects-name h2 {
+    width: 600px;
+    height: 40px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    margin-left: 0;
+  }
+  .projects-section .projects .projects-name p {
+    margin-left: 0;
+    width: 456px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .projects-section .projects .projects-developed-and-exact {
+    margin-top: -30px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button {
+    margin-left: 26px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects-button {
+    position: absolute;
+    width: 207px;
+    height: 40px;
+    left: 375px;
+    margin-top: 79px;
+    border-radius: 8px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects-button button {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects div span {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+  .projects-section .projects .I-teka-project {
+    margin-left: 26px;
+    margin-top: -45px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name {
+    gap: 20px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name h2 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.33px;
+    margin-bottom: 0;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description {
+    gap: 35px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .description {
+    width: 459px;
+    height: 60px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .description br {
+    display: none;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .business-analysis {
+    margin: -15px 0px 0px 0px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .loc-and-industry div p {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .growth-and-active-users p:first-child {
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.33px;
+  }
+  .projects-section .projects .I-teka-project .I-teka-project-description-name .I-teka-project-description .growth-and-active-users p:last-child {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+  }
+  .projects-section .projects .I-teka-project img {
+    width: 368.65px;
+    height: 225px;
+    position: absolute;
+    left: 350px;
+    margin-top: 190px;
+  }
 }/*# sourceMappingURL=fourthscreen.css.map */

@@ -47,7 +47,7 @@
 .bg-left {
     background-image: url('../../../src/assets/img/column-left.webp');
     background-size: contain;
-    background-position: 800px center;
+    background-position: 790px center;
     animation: MoveUp 20s linear infinite;
 }
 
@@ -60,14 +60,14 @@
     height: 100%;
     background-image: url('../../../src/assets/img/column-left.webp');
     background-size: contain;
-    background-position: 800px center;
+    background-position: 790px center;
     background-repeat: no-repeat;
 }
 
 .bg-right {
     background-image: url('../../../src/assets/img/column-right.webp');
     background-size: contain;
-    background-position: 1060px center;
+    background-position: 1050px center;
     animation: MoveDown 20s linear infinite;
 }
 
@@ -80,7 +80,7 @@
     height: 100%;
     background-image: url('../../../src/assets/img/column-right.webp');
     background-size: contain;
-    background-position: 1060px center;
+    background-position: 1050px center;
     background-repeat: no-repeat;
 }
 

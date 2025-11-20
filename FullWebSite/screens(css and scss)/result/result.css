@@ -9,6 +9,9 @@
 @import "../seventhscreen/seventhscreen.css";
 @import "../eighthscreen/eighthscreen.css";
 @import "../ninthscreen/ninthscreen.css";
+/*html, body {
+    overflow-x: hidden;
+}*/
 body {
   display: grid;
   grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 600px 350px;
@@ -18,64 +21,64 @@ body {
 
 .main-section {
   grid-area: main;
-  width: 1440px;
+  width: 100%;
 }
 
 .full-development-section {
   grid-area: full-development;
   background-color: #FFFFFF;
-  width: 1440px;
+  width: 100%;
 }
 
 .projects-industries-section {
   grid-area: projects-industries;
-  width: 1440px;
+  width: 100%;
 }
 
 .projects-section {
   grid-area: projects;
-  width: 1440px;
+  width: 100%;
 }
 
 .application-development-stages-section {
   grid-area: application-development-stages;
   background-color: #FFFFFF;
-  width: 1440px;
+  width: 100%;
 }
 
 .discussion-section {
   grid-area: discussion;
   background-color: #2D66EE;
-  width: 1440px;
+  width: 100%;
 }
 
 .team-and-photo-section {
   grid-area: team-and-photo;
-  width: 1440px;
+  width: 100%;
 }
 
 .get-free-book-section {
   grid-area: get-free-book;
   background-color: #2D66EE;
-  width: 1440px;
+  width: 100%;
 }
 
 .faq-section {
   grid-area: faq;
   background-color: #FFFFFF;
-  width: 1440px;
+  width: 100%;
 }
 
 .footer-section {
   grid-area: footer;
   background-color: #FFFFFF;
-  width: 1440px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   body {
     display: grid;
-    grid-template-rows: 0px 855px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+    grid-template-rows: 0px 855px 550px 538px 800px 350px 810px 582px 588px 672px 350px;
     grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
     margin: 0;
   }
