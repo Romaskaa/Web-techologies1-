@@ -86,10 +86,63 @@
   background-size: cover;
   background-repeat: no-repeat;
   filter: brightness(1) invert(16%);
-  box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.4784313725);
+  box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.8705882353);
 }
 .image-player svg {
   position: absolute;
   left: 270px;
   top: 170px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-and-photo .our-team {
+    margin: 15px 0px 0px 26px;
+    gap: 0px;
+  }
+  .team-and-photo .our-team h2 {
+    width: 144.07px;
+    height: 40px;
+    left: 30px;
+    top: 38px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.326451px;
+    margin-bottom: 24px;
+  }
+  .team-and-photo .our-team p:first-of-type {
+    width: 414.84px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .team-and-photo .our-team p:last-of-type {
+    width: 613.06px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .team-and-photo .our-team .team-info {
+    margin-top: 520px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members p, .team-and-photo .our-team .team-info .our-team-projects p, .team-and-photo .our-team .team-info .our-team-in-it p {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .team-and-photo .image-player {
+    left: 15px;
+    top: 4700px;
+    width: 720px;
+    height: 421px;
+  }
 }/*# sourceMappingURL=seventhscreen.css.map */

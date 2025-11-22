@@ -220,9 +220,6 @@
       transform: scale(0.8) translateY(100%);
     }
   }
-  .main-section {
-    grid-area: main;
-  }
   .background-container {
     position: absolute;
     top: 0;

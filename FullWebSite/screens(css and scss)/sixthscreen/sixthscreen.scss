@@ -137,12 +137,14 @@
 @media screen and (max-width: 768px) {
     .application-development-stages {
         h2 {
-
-            position: absolute;
-            width: 473px;
+            width: 600px;
             height: 40px;
-            left: 39px;
-            top: 3091px;
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 144%;
+            letter-spacing: 0.33px;
+            margin: 26px 0px 0px 27px;
         }
 
         .dev-stages {
@@ -151,6 +153,7 @@
             align-items: flex-start;
             padding: 0px;
             gap: 32px;
+            margin: 52px 0px 0px 29px;
 
             .dev-stages-left {
                 gap: 32px;
@@ -159,11 +162,52 @@
                 .application-development-stages-design ,
                 .application-development-stages-development {
                     width: 680px;
-                    height: 172px;
+                    height: 148px;
+
+                    p {
+                        width: 504px;
+                        height: 40px;
+                        font-family: 'SF Pro Text';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: -0.24px;
+                    }
+                }
+
+                .application-development-stages-analysis svg {
+                    left: 620px;
+                    top: 3289px;
                 }
 
                 .application-development-stages-design {
                     margin-top: 0;
+
+                    p {
+                        width: 463px;
+                        height: 40px;
+                        font-family: 'SF Pro Text';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: -0.24px;
+                    }
+
+                    svg {
+                        left: 601px;
+                        top: 3493px;
+                    }
+                }
+
+                .application-development-stages-development {
+                    p {
+                        width: 432px;
+                    }
+
+                    svg {
+                        left: 600px;
+                        top: 3697px;
+                    }
                 }
             }
 
@@ -174,7 +218,39 @@
                 .application-development-stages-launching,
                 .application-development-stages-support {
                     width: 680px;
-                    height: 172px;
+                    height: 148px;
+
+                    p {
+                        width: 344px;
+                        height: 40px;
+                        font-family: 'SF Pro Text';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: -0.24px;
+                        color: #101828;
+                    }
+                }
+
+                .application-development-stages-testing svg {
+                    left: 584px;
+                    top: 3901px;
+                }
+
+                .application-development-stages-launching svg {
+                    left: 598px;
+                    top: 4105px; 
+                }
+
+                .application-development-stages-support {
+                    p { 
+                        width: 391px;
+                    }
+                    
+                    svg {
+                        left: 594px;
+                        top: 4309px; 
+                    }
                 }
             }
         }

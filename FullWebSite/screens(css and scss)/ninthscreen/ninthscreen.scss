@@ -143,3 +143,41 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .faq {
+        padding: 0px 0px 0px 26px;
+
+        .faq-title {
+            h2 {
+                width: 57px;
+                height: 40px;
+                font-family: 'Inter';
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 144%;
+                letter-spacing: 0.326451px;
+            }
+        }
+
+        .questions {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 60px 0px 60px;
+            height: 652px;
+            margin-top: -15px;
+
+            .left-questions {
+                order: 1;
+                margin-top: -40px;
+            }
+
+            .right-questions {
+                .questions-confidentiality-guarantee {
+                    border-bottom: none;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

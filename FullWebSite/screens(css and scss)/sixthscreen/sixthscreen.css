@@ -136,11 +136,14 @@
 
 @media screen and (max-width: 768px) {
   .application-development-stages h2 {
-    position: absolute;
-    width: 473px;
+    width: 600px;
     height: 40px;
-    left: 39px;
-    top: 3091px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.33px;
+    margin: 26px 0px 0px 27px;
   }
   .application-development-stages .dev-stages {
     display: flex;
@@ -148,6 +151,7 @@
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
+    margin: 52px 0px 0px 29px;
   }
   .application-development-stages .dev-stages .dev-stages-left {
     gap: 32px;
@@ -156,10 +160,45 @@
   .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design,
   .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development {
     width: 680px;
-    height: 172px;
+    height: 148px;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis p,
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design p,
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development p {
+    width: 504px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis svg {
+    left: 620px;
+    top: 3289px;
   }
   .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design {
     margin-top: 0;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design p {
+    width: 463px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design svg {
+    left: 601px;
+    top: 3493px;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development p {
+    width: 432px;
+  }
+  .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development svg {
+    left: 600px;
+    top: 3697px;
   }
   .application-development-stages .dev-stages .dev-stages-right {
     gap: 32px;
@@ -168,6 +207,33 @@
   .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching,
   .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support {
     width: 680px;
-    height: 172px;
+    height: 148px;
+  }
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing p,
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching p,
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support p {
+    width: 344px;
+    height: 40px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+  }
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing svg {
+    left: 584px;
+    top: 3901px;
+  }
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching svg {
+    left: 598px;
+    top: 4105px;
+  }
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support p {
+    width: 391px;
+  }
+  .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support svg {
+    left: 594px;
+    top: 4309px;
   }
 }/*# sourceMappingURL=sixthscreen.css.map */

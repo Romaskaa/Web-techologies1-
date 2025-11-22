@@ -15,7 +15,7 @@
 
     .get-free-book {
     
-        svg:nth-of-type(1) {
+        svg {
             position: absolute;
             width: 1440px;
             height: 258.13px;
@@ -32,7 +32,7 @@
             left: 480px;
             z-index: 1;
 
-            img:nth-of-type(1) {
+            img {
                 position: absolute;
                 height: 650px;
                 left: 128px;
@@ -204,6 +204,82 @@
                         width: 551px;
                         padding-left: 0;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .get-free-book-section {
+
+        &::before{
+            opacity: 0.1;
+        }
+
+        .get-free-book {
+
+
+            svg {
+                display: none;
+            }
+
+            .book-form-title {
+                margin: 26px 0px 0px 58px;
+                gap: 60px;
+                
+                h2 {
+                    width: 455px;
+                    height: 80px;
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 144%;
+                    letter-spacing: 0.326451px;
+                    color: #FCFCFD;
+                }
+
+                .book-form form {
+                    width: 335px;
+                    height: 431px;
+
+                    .form-fields-book {
+                        gap: 8px;
+                        width: 271px;
+                        height: 367px;
+
+                        .phone-and-name-field-book {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            height: 240px;
+                            width: 200px;
+                            gap: 10px;
+                        }
+
+                        .email-field-book {
+                            padding-top: 6px;
+                            width: 280px;
+                            margin-top: -20px;
+                            input {
+                                width: 271px;
+                            }
+                        }
+                    }
+
+                    button {
+                        position: absolute;
+                        margin: 328px 72px 0px 0px;
+                    }
+                }
+            }
+
+            .book-image {
+
+                img {
+                    height: 530px;
+                    left: -260px;
+                    top: 130px;
                 }
             }
         }
