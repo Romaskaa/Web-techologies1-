@@ -424,3 +424,43 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .projects-section {
+        .projects {
+            .projects-name {
+                p {
+                    width: 339px;
+                    height: 60px;
+                    font-family: 'SF Pro Text';
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: -0.24px;
+                }
+            }
+
+            .projects-developed-and-exact {
+                .developed-projects-and-button {
+                    .developed-projects {
+                        width: 390px;
+                        height: 60px;
+                        flex-wrap: wrap;
+                        margin-left: -16px;
+
+                        .developed-projects-i-teka,
+                        .developed-projects-dauletten,
+                        .developed-projects-gurubosch,
+                        .developed-projects-santo,
+                        .developed-projects-homecreditbank,
+                        .developed-projects-bipartners,
+                        .developed-projects-europharma {
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

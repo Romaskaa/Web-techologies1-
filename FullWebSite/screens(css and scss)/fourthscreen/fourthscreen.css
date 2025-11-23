@@ -397,4 +397,32 @@
     left: 350px;
     margin-top: 190px;
   }
+}
+@media screen and (max-width: 425px) {
+  .projects-section .projects .projects-name p {
+    width: 339px;
+    height: 60px;
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects {
+    width: 390px;
+    height: 60px;
+    flex-wrap: wrap;
+    margin-left: -16px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-i-teka,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-dauletten,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-gurubosch,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-santo,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-homecreditbank,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-bipartners,
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-europharma {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 22px;
+  }
 }/*# sourceMappingURL=fourthscreen.css.map */

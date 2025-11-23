@@ -115,4 +115,65 @@
     left: 440px;
     top: 1934px;
   }
+}
+@media screen and (max-width: 425px) {
+  .projects-industries-section .projects-industries {
+    margin-top: 10px;
+    width: 369px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-left {
+    width: 171px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-left .projects-industries-socials, .projects-industries-section .projects-industries .projects-industries-left .projects-industries-fitness-and-sport,
+  .projects-industries-section .projects-industries .projects-industries-left .projects-industries-bank, .projects-industries-section .projects-industries .projects-industries-left .projects-industries-construction,
+  .projects-industries-section .projects-industries .projects-industries-left .projects-industries-game-projects {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-centre {
+    width: 166px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-education, .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-auto-transport,
+  .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-medicine-health, .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-restaurants-food-delivery,
+  .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-marketplaces {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-centre .projects-industries-restaurants-food-delivery p {
+    width: 88px;
+    margin-top: 30px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-ar, .projects-industries-section .projects-industries .projects-industries-right .projects-industries-tv,
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-startups, .projects-industries-section .projects-industries .projects-industries-right .projects-industries-religion,
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-online-cources {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    left: 24px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-ar {
+    top: 2411px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-tv {
+    top: 2471px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-online-cources {
+    top: 2531px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-startups {
+    left: 220px;
+    top: 2411px;
+  }
+  .projects-industries-section .projects-industries .projects-industries-right .projects-industries-religion {
+    left: 220px;
+    top: 2471px;
+  }
 }/*# sourceMappingURL=thirdscreen.css.map */
