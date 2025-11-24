@@ -233,4 +233,54 @@
     opacity: 0.3;
     transform: scaleY(1.3);
   }
+}
+@media screen and (max-width: 425px) {
+  .discussion-section .discussion .discussion-title h2 {
+    margin-left: -14px;
+  }
+  .discussion-section .discussion .discussion-title p {
+    margin-left: -14px;
+  }
+  .discussion-section .discussion .discussion-form {
+    margin-left: -14px;
+  }
+  .discussion-section .discussion .discussion-form form {
+    width: 382px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    margin-top: 110px;
+  }
+  .discussion-section .discussion .discussion-form form button {
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 65px;
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+  }
+  .discussion-section .discussion .discussion-form .form-data {
+    display: flex;
+    flex-direction: column;
+    margin-right: -185px;
+    margin-top: -150px;
+  }
+  .discussion-section .discussion .discussion-form .form-data .phone_num_form .photo-and-flag input {
+    width: 351px;
+  }
+  .discussion-section .discussion .discussion-form .form-data .fullname_form {
+    padding-top: 0;
+  }
+  .discussion-section .discussion .discussion-form .form-data .fullname_form input {
+    width: 351px;
+  }
+  .discussion-section .discussion svg {
+    position: absolute;
+    width: 385px;
+    height: 88px;
+    left: 14px;
+    margin-top: 160px;
+    opacity: 0.3;
+  }
 }/*# sourceMappingURL=fifthscreen.css.map */

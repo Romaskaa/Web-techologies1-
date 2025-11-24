@@ -399,6 +399,9 @@
   }
 }
 @media screen and (max-width: 425px) {
+  .projects-section .projects .projects-name {
+    margin-left: 14px;
+  }
   .projects-section .projects .projects-name p {
     width: 339px;
     height: 60px;
@@ -408,11 +411,14 @@
     line-height: 20px;
     letter-spacing: -0.24px;
   }
+  .projects-section .projects .projects-developed-and-exact {
+    gap: 290px;
+  }
   .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects {
     width: 390px;
     height: 60px;
     flex-wrap: wrap;
-    margin-left: -16px;
+    margin-left: -28px;
   }
   .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-i-teka,
   .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects .developed-projects-dauletten,
@@ -424,5 +430,33 @@
     padding-top: 0;
     padding-bottom: 0;
     height: 22px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects-button {
+    left: -80px;
+    margin-top: 770px;
+    width: 500px;
+  }
+  .projects-section .projects .projects-developed-and-exact .developed-projects-and-button .developed-projects-button button {
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+  }
+  .projects-section .projects .projects-developed-and-exact .I-teka-project {
+    margin-left: 14px;
+  }
+  .projects-section .projects .projects-developed-and-exact .I-teka-project .I-teka-project-description-name .I-teka-project-description .description {
+    width: 393px;
+    height: 60px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+  .projects-section .projects .projects-developed-and-exact .I-teka-project img {
+    width: 393px;
+    height: 225px;
+    left: 16px;
+    top: 2650px;
   }
 }/*# sourceMappingURL=fourthscreen.css.map */

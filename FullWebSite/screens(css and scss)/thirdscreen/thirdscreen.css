@@ -117,9 +117,13 @@
   }
 }
 @media screen and (max-width: 425px) {
+  .projects-industries-section h2 {
+    margin-left: 14px;
+  }
   .projects-industries-section .projects-industries {
     margin-top: 10px;
     width: 369px;
+    margin-left: -28px;
   }
   .projects-industries-section .projects-industries .projects-industries-left {
     width: 171px;
@@ -157,7 +161,7 @@
     font-size: 14px;
     line-height: 22px;
     letter-spacing: -0.408px;
-    left: 24px;
+    left: 12px;
   }
   .projects-industries-section .projects-industries .projects-industries-right .projects-industries-ar {
     top: 2411px;
@@ -169,11 +173,11 @@
     top: 2531px;
   }
   .projects-industries-section .projects-industries .projects-industries-right .projects-industries-startups {
-    left: 220px;
+    left: 208px;
     top: 2411px;
   }
   .projects-industries-section .projects-industries .projects-industries-right .projects-industries-religion {
-    left: 220px;
+    left: 208px;
     top: 2471px;
   }
 }/*# sourceMappingURL=thirdscreen.css.map */

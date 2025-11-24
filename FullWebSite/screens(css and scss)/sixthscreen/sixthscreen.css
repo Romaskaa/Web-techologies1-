@@ -236,4 +236,41 @@
     left: 594px;
     top: 4309px;
   }
+}
+@media screen and (max-width: 425px) {
+  .application-development-stages-section .application-development-stages h2 {
+    width: 309px;
+    height: 80px;
+    margin-left: 14px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left {
+    margin-left: -14px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis {
+    width: 360px;
+    height: 214px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design {
+    width: 360px;
+    height: 217px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development {
+    width: 360px;
+    height: 195px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right {
+    margin-left: -14px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing {
+    width: 360px;
+    height: 192px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching {
+    width: 360px;
+    height: 207px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support {
+    width: 360px;
+    height: 192px;
+  }
 }/*# sourceMappingURL=sixthscreen.css.map */

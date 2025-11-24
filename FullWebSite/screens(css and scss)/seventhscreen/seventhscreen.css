@@ -145,4 +145,9 @@
     width: 720px;
     height: 421px;
   }
+}
+@media screen and (max-width: 425px) {
+  .team-and-photo .image-player {
+    display: none;
+  }
 }/*# sourceMappingURL=seventhscreen.css.map */
