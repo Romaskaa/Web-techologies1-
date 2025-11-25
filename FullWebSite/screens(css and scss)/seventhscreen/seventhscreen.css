@@ -81,11 +81,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../../../src/assets/img/team.jpg");
+  background: url("../../../src/assets/img/team.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(1) invert(16%);
   box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.8705882353);
 }
 .image-player svg {
@@ -131,6 +130,10 @@
   }
   .team-and-photo .our-team .team-info {
     margin-top: 520px;
+    gap: 4px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members, .team-and-photo .our-team .team-info .our-team-projects, .team-and-photo .our-team .team-info .our-team-in-it {
+    margin-left: 14px;
   }
   .team-and-photo .our-team .team-info .our-team-members p, .team-and-photo .our-team .team-info .our-team-projects p, .team-and-photo .our-team .team-info .our-team-in-it p {
     font-family: "SF Pro Text";
@@ -138,6 +141,10 @@
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.24px;
+    margin-left: 0px;
+  }
+  .team-and-photo .our-team p:last-of-type {
+    margin-left: 14px;
   }
   .team-and-photo .image-player {
     left: 15px;
@@ -147,7 +154,61 @@
   }
 }
 @media screen and (max-width: 425px) {
+  .team-and-photo .our-team {
+    margin-left: 14px;
+  }
+  .team-and-photo .our-team p:first-of-type {
+    width: 376px;
+    height: 60px;
+  }
+  .team-and-photo .our-team p:last-of-type {
+    width: 359px;
+    height: 60px;
+  }
+  .team-and-photo .our-team .team-info {
+    margin-top: 300px;
+    width: 374px;
+    height: 58px;
+    gap: 48px;
+    padding-bottom: 20px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members, .team-and-photo .our-team .team-info .our-team-projects, .team-and-photo .our-team .team-info .our-team-in-it {
+    height: 58px;
+    gap: 20px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members h3, .team-and-photo .our-team .team-info .our-team-projects h3, .team-and-photo .our-team .team-info .our-team-in-it h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 0.326451px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members p, .team-and-photo .our-team .team-info .our-team-projects p, .team-and-photo .our-team .team-info .our-team-in-it p {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.24px;
+  }
+  .team-and-photo .our-team .team-info .our-team-members {
+    width: 98px;
+  }
+  .team-and-photo .our-team .team-info .our-team-projects {
+    width: 73px;
+  }
+  .team-and-photo .our-team .team-info .our-team-in-it {
+    width: 102px;
+  }
   .team-and-photo .image-player {
-    display: none;
+    top: 6030px;
+    left: 8px;
+    width: 392px;
+    height: 237px;
+  }
+  .team-and-photo .image-player svg {
+    width: 60px;
+    height: 60px;
+    left: 166px;
+    top: 91px;
   }
 }/*# sourceMappingURL=seventhscreen.css.map */

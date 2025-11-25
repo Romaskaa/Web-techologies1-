@@ -285,3 +285,29 @@
         }
     }
 }
+
+@media screen and (max-width: 425px) {
+    .get-free-book-section {
+        .get-free-book {
+            margin-left: -20px;
+            .book-form-title {
+                h2 {
+                    width: 333px;
+                    height: 80px;
+                }
+
+                .book-form {
+                    margin-top: 250px;
+                }
+            }
+
+            .book-image {
+                img {
+                    height: 300.31px;
+                    left: -478px;
+                    top: 120px;
+                }
+            }
+        }
+    }
+}

@@ -140,6 +140,10 @@
                 justify-content:space-between;
                 border-bottom: 0.5px solid #D0D5DD;
             }
+
+            .questions-confidentiality-guarantee-another {
+                display: none;
+            }
         }
     }
 }
@@ -176,6 +180,78 @@
                 .questions-confidentiality-guarantee {
                     border-bottom: none;
                     margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq-section {
+        .faq {
+            padding-left: 14px;
+        }
+
+        .questions {
+            padding-left: 0px;
+
+            .left-questions {
+                display: none;
+            }
+            
+            .right-questions {
+                margin-top: -25px;
+                height: 900px;
+                .questions-confidentiality-guarantee-another {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 6px 0px;
+                    gap: 16px;
+                    width: 600px;
+                    height: 84px;
+                    justify-content:space-between;
+                    border-bottom: 0.5px solid #D0D5DD;
+                }
+
+                .questions-duration {
+                    border-top: none;
+                    width: 393px;
+                    height: 328px;
+
+                    .questions-duration-text {
+                        p {
+                            width: 344px;
+                            height: 260px;
+                            left: 0px;
+                            top: 48px;
+                            font-family: 'SF Pro Text';
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 20px;
+                            letter-spacing: -0.24px;
+                            color: #101828;
+                        }
+                    }
+                    
+                    svg {
+                        transform: scaleX(1.7) scaleY(1.7);
+                        margin-top: 10px;
+                    }
+                }
+                
+                .questions-confidentiality-guarantee, 
+                .questions-confidentiality-guarantee-another {
+                    width: 393px;
+                    h3 {
+                        width: 273px;
+                        height: 52px;
+                    }
+                }
+
+                .questions-confidentiality-guarantee {
+                    border-bottom: 0.5px solid #D0D5DD;;
+                    margin-top: 0;
                 }
             }
         }

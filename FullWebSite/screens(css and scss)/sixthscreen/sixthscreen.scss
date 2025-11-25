@@ -270,36 +270,113 @@
                 .dev-stages-left {
                     margin-left: -14px;
                     .application-development-stages-analysis {
-                        width: 360px;
-                        height: 214px;
+                        width: 357px;
+                        height: 182px;
+
+                        p {
+                            width: 266px;
+                            height: 80px;
+                        }
+
+                        svg {
+                            left: 293px;
+                            top: 4446px;
+                            width: 103px;
+                            height: 214px;
+                        }
                     }
 
                     .application-development-stages-design {
-                        width: 360px;
-                        height: 217px;
+                        width: 357px;
+                        height: 190px;
+
+                        p {
+                            width: 180px;
+                            height: 100px;
+                        }
+
+                        svg {
+                            left: 232px;
+                            top: 4677px;
+                            width: 165px;
+                            height: 235px;
+                        }
                     }
 
                     .application-development-stages-development {
-                        width: 360px;
-                        height: 195px;
+                        width: 357px;
+                        height: 170px;
+
+                        p {
+                           width: 231px;
+                           height: 80px;
+                        }
+
+                        svg {
+                            left: 263px;
+                            top: 4933px;
+                            height: 195px;
+                            width: 146px;
+                            transform: scaleX(0.9) scaleY(1.08);
+                        }
+
                     }
                 }
 
                 .dev-stages-right {
                     margin-left: -14px;
                     .application-development-stages-testing {
-                        width: 360px;
-                        height: 192px;
+                        width: 357px;
+                        height: 170px;
+
+                        p {
+                            width: 200px;
+                            height: 80px;
+                        }
+
+                        svg {
+                            left: 244px;
+                            top: 5161px;
+                            width: 159px;
+                            height: 192px;
+                            transform: scaleX(0.92) scaleY(1.06);
+                        }
                     }
 
                     .application-development-stages-launching {
-                        width: 360px;
-                        height: 207px;
+                        width: 357px;
+                        height: 185px;
+
+                        p {
+                            width: 177px;
+                            height: 100px;
+                        }
+
+                        svg {
+                            left: 250px;
+                            top: 5387px;
+                            width: 153px;
+                            height: 207px;
+                            transform: scaleX(0.92) scaleY(1.07);
+                        }
                     }
 
                     .application-development-stages-support {
-                        width: 360px;
-                        height: 192px;
+                        width: 357px;
+                        height: 170px;
+
+                        p {
+                           width: 187px;
+                           height: 80px;                         
+                        }
+
+                        svg {
+                            left: 249px;
+                            top: 5628px;
+                            width: 150px;
+                            height: 192px;
+                            transform: scaleX(0.96) scaleY(1.052);
+                        }
                     }
                 }
             }

@@ -87,11 +87,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url("../../../src/assets/img/team.jpg");
+        background: url("../../../src/assets/img/team.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        filter: brightness(1) invert(16%);
         box-shadow: 0px 30px 20px #000000de;
     }
 
@@ -144,16 +143,23 @@
 
             .team-info {
                 margin-top: 520px;
+                gap: 4px;
 
                 .our-team-members, .our-team-projects, .our-team-in-it {
+                    margin-left: 14px;
                     p {
                         font-family: 'SF Pro Text';
                         font-weight: 500;
                         font-size: 15px;
                         line-height: 20px;
                         letter-spacing: -0.24px;
+                        margin-left: 0px;
                     }
                 }
+            }
+
+            p:last-of-type {
+                margin-left: 14px;
             }
         }
 
@@ -169,9 +175,73 @@
 
 @media screen and (max-width: 425px) {
     .team-and-photo {
+
+        .our-team {
+            margin-left: 14px;
+
+            p:first-of-type {
+                width: 376px;
+                height: 60px;
+            }
+
+            p:last-of-type {
+                width: 359px;
+                height: 60px;
+            }
+
+            .team-info {
+                margin-top: 300px;
+                width: 374px;
+                height: 58px;
+                gap: 48px;
+                padding-bottom: 20px;
+
+                .our-team-members, .our-team-projects, .our-team-in-it {
+                    height: 58px;
+                    gap: 20px;
+                    h3 {
+                        font-family: 'Inter';
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 24px;
+                        letter-spacing: 0.326451px;
+                    }
+
+                    p {
+                        font-family: "SF Pro Text";
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 14px;
+                        letter-spacing: -0.24px;
+                    }
+                }
+
+                .our-team-members {
+                    width: 98px;
+                }
+
+                .our-team-projects {
+                    width: 73px;
+                }
+
+                .our-team-in-it {
+                    width: 102px;
+                }
+            }
+        }
+
         .image-player {
-            display: none;
+            top: 6030px;
+            left: 8px;
+            width: 392px;
+            height: 237px;
+
+            svg {
+                width: 60px;
+                height: 60px;
+                left: 166px;
+                top: 91px;
+            }
         }
     }
-
 }

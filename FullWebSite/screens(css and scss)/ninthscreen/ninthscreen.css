@@ -128,6 +128,9 @@
   justify-content: space-between;
   border-bottom: 0.5px solid #D0D5DD;
 }
+.faq .questions .right-questions .questions-confidentiality-guarantee-another {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .faq {
@@ -156,5 +159,65 @@
   .faq .questions .right-questions .questions-confidentiality-guarantee {
     border-bottom: none;
     margin-top: 5px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .faq-section .faq {
+    padding-left: 14px;
+  }
+  .faq-section .questions {
+    padding-left: 0px;
+  }
+  .faq-section .questions .left-questions {
+    display: none;
+  }
+  .faq-section .questions .right-questions {
+    margin-top: -25px;
+    height: 900px;
+  }
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee-another {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 0px;
+    gap: 16px;
+    width: 600px;
+    height: 84px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #D0D5DD;
+  }
+  .faq-section .questions .right-questions .questions-duration {
+    border-top: none;
+    width: 393px;
+    height: 328px;
+  }
+  .faq-section .questions .right-questions .questions-duration .questions-duration-text p {
+    width: 344px;
+    height: 260px;
+    left: 0px;
+    top: 48px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #101828;
+  }
+  .faq-section .questions .right-questions .questions-duration svg {
+    transform: scaleX(1.7) scaleY(1.7);
+    margin-top: 10px;
+  }
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee,
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee-another {
+    width: 393px;
+  }
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee h3,
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee-another h3 {
+    width: 273px;
+    height: 52px;
+  }
+  .faq-section .questions .right-questions .questions-confidentiality-guarantee {
+    border-bottom: 0.5px solid #D0D5DD;
+    margin-top: 0;
   }
 }/*# sourceMappingURL=ninthscreen.css.map */

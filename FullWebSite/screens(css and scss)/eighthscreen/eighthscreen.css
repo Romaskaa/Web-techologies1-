@@ -242,4 +242,21 @@
     left: -260px;
     top: 130px;
   }
+}
+@media screen and (max-width: 425px) {
+  .get-free-book-section .get-free-book {
+    margin-left: -20px;
+  }
+  .get-free-book-section .get-free-book .book-form-title h2 {
+    width: 333px;
+    height: 80px;
+  }
+  .get-free-book-section .get-free-book .book-form-title .book-form {
+    margin-top: 250px;
+  }
+  .get-free-book-section .get-free-book .book-image img {
+    height: 300.31px;
+    left: -478px;
+    top: 120px;
+  }
 }/*# sourceMappingURL=eighthscreen.css.map */

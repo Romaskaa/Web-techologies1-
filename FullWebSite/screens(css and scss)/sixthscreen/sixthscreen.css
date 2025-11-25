@@ -247,30 +247,94 @@
     margin-left: -14px;
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis {
-    width: 360px;
+    width: 357px;
+    height: 182px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis p {
+    width: 266px;
+    height: 80px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-analysis svg {
+    left: 293px;
+    top: 4446px;
+    width: 103px;
     height: 214px;
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design {
-    width: 360px;
-    height: 217px;
+    width: 357px;
+    height: 190px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design p {
+    width: 180px;
+    height: 100px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-design svg {
+    left: 232px;
+    top: 4677px;
+    width: 165px;
+    height: 235px;
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development {
-    width: 360px;
+    width: 357px;
+    height: 170px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development p {
+    width: 231px;
+    height: 80px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-left .application-development-stages-development svg {
+    left: 263px;
+    top: 4933px;
     height: 195px;
+    width: 146px;
+    transform: scaleX(0.9) scaleY(1.08);
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right {
     margin-left: -14px;
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing {
-    width: 360px;
+    width: 357px;
+    height: 170px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing p {
+    width: 200px;
+    height: 80px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-testing svg {
+    left: 244px;
+    top: 5161px;
+    width: 159px;
     height: 192px;
+    transform: scaleX(0.92) scaleY(1.06);
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching {
-    width: 360px;
+    width: 357px;
+    height: 185px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching p {
+    width: 177px;
+    height: 100px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-launching svg {
+    left: 250px;
+    top: 5387px;
+    width: 153px;
     height: 207px;
+    transform: scaleX(0.92) scaleY(1.07);
   }
   .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support {
-    width: 360px;
+    width: 357px;
+    height: 170px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support p {
+    width: 187px;
+    height: 80px;
+  }
+  .application-development-stages-section .application-development-stages .dev-stages .dev-stages-right .application-development-stages-support svg {
+    left: 249px;
+    top: 5628px;
+    width: 150px;
     height: 192px;
+    transform: scaleX(0.96) scaleY(1.052);
   }
 }/*# sourceMappingURL=sixthscreen.css.map */

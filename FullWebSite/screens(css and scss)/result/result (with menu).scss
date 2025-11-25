@@ -2,10 +2,22 @@
 @import "../footer/footer.css";
 @import "../firstscreen/firstscreen.css";
 @import "../secondscreen/secondscreen.css";
+@import "../thirdscreen/thirdscreen.css";
+@import "../fourthscreen/fourthscreen.css";
+@import "../fifthscreen/fifthscreen.css";
+@import "../sixthscreen/sixthscreen.css";
+@import "../seventhscreen/seventhscreen.css";
+@import "../eighthscreen/eighthscreen.css";
+@import "../ninthscreen/ninthscreen.css";
+
+/*html, body {
+    overflow-x: hidden;
+}*/
+
 
 body{
     display: grid;
-    grid-template-rows: 0px 900px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+    grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 600px 350px;
     grid-template-areas:
     "header"
     "main"
@@ -21,47 +33,66 @@ body{
     margin: 0;
 }
 
+.main-section {
+    grid-area: main;
+    width: 100%;
+}
+
+.full-development-section {
+    grid-area: full-development;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
 .projects-industries-section {
     grid-area: projects-industries;
+    width: 100%;
 }
 
 .projects-section {
     grid-area: projects;
+    width: 100%;
 }
 
 .application-development-stages-section {
     grid-area: application-development-stages;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .discussion-section {
     grid-area: discussion;
     background-color: #2D66EE;
+    width: 100%;
 }
 
 .team-and-photo-section {
     grid-area: team-and-photo;
+    width: 100%;
 }
 
 .get-free-book-section {
     grid-area: get-free-book;
     background-color: #2D66EE;
+    width: 100%;
 }
 
 .faq-section {
     grid-area: faq;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .footer-section {
     grid-area: footer;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     body {
         display: grid;
-        grid-template-rows: 0px 855px 550px 300px 900px 350px 810px 582px 588px 672px 350px;
+        grid-template-rows: 0px 855px 550px 538px 800px 428px 1361px 884px 724px 760px 350px;
         grid-template-areas:
         "header"
         "main"
@@ -78,10 +109,10 @@ body{
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     body {
         display: grid;
-        grid-template-rows: 0px 1170px 800px 400px 1253px 669px 1800px 646px 923px 672px 230px;
+        grid-template-rows: 0px 1170px 800px 500px 1153px 669px 1550px 646px 923px 642px 340px;
         grid-template-areas:
         "header"
         "main"
