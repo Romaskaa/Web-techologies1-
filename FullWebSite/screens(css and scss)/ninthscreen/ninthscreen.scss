@@ -64,6 +64,10 @@
                 height: 84px;
                 justify-content: space-between;
                 border-bottom: 0.5px solid #D0D5DD;
+
+                svg {
+                    cursor: pointer;
+                }
             }
 
             .questions-cost-mobile-application {
@@ -127,6 +131,10 @@
                         }
                     }
                 } 
+
+                svg {
+                    cursor: pointer;
+                }
             }
 
             .questions-confidentiality-guarantee {
@@ -139,10 +147,12 @@
                 height: 84px;
                 justify-content:space-between;
                 border-bottom: 0.5px solid #D0D5DD;
+                cursor: pointer;
             }
 
             .questions-confidentiality-guarantee-another {
                 display: none;
+                cursor: pointer;
             }
         }
     }

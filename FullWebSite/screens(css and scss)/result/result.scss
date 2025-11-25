@@ -106,7 +106,15 @@ body{
         "faq"
         "footer";
         margin: 0;
+        max-width: 768px;
     }
+
+    .main-section, .full-development-section, .projects-industries-section,
+    .projects-section, .application-development-stages-section, .discussion-section,
+    .team-and-photo-section, .get-free-book-section, .faq-section, .footer-section {
+        width: 768px;
+    }
+
 }
 
 @media screen and (max-width: 425px) {

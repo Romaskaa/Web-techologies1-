@@ -22,8 +22,6 @@
 }
 .get-free-book-section .get-free-book .book-image {
   position: absolute;
-  width: 600px;
-  height: 428px;
   top: 10px;
   left: 480px;
   z-index: 1;
@@ -31,8 +29,11 @@
 .get-free-book-section .get-free-book .book-image img {
   position: absolute;
   height: 650px;
+  width: 830px;
   left: 128px;
   top: -46px;
+  padding-left: 60px;
+  box-sizing: border-box;
 }
 .get-free-book-section .book-form-title {
   display: flex;
@@ -91,6 +92,7 @@
   letter-spacing: -0.154px;
   color: #FFFFFF;
   margin-right: 26px;
+  cursor: pointer;
 }
 .get-free-book-section .book-form-title .book-form form input {
   font-family: "SF Pro Text";
@@ -237,10 +239,23 @@
     position: absolute;
     margin: 328px 72px 0px 0px;
   }
+  .get-free-book-section .get-free-book .book-image {
+    position: relative;
+    width: 300px;
+    height: 520px;
+    margin-top: -310px;
+    margin-left: -50px;
+  }
   .get-free-book-section .get-free-book .book-image img {
-    height: 530px;
-    left: -260px;
-    top: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 520px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 425px) {
