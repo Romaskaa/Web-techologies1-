@@ -212,8 +212,9 @@
     color: #101828;
   }
   .faq-section .questions .right-questions .questions-duration svg {
-    transform: scaleX(1.7) scaleY(1.7);
     margin-top: 10px;
+    position: absolute;
+    left: 350px;
   }
   .faq-section .questions .right-questions .questions-confidentiality-guarantee,
   .faq-section .questions .right-questions .questions-confidentiality-guarantee-another {

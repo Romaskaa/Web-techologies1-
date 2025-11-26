@@ -9,9 +9,6 @@
 @import "../seventhscreen/seventhscreen.css";
 @import "../eighthscreen/eighthscreen.css";
 @import "../ninthscreen/ninthscreen.css";
-/*html, body {
-    overflow-x: hidden;
-}*/
 body {
   display: grid;
   grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 600px 350px;
@@ -82,6 +79,7 @@ body {
     grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
     margin: 0;
     max-width: 768px;
+    overflow-x: hidden;
   }
   .main-section, .full-development-section, .projects-industries-section,
   .projects-section, .application-development-stages-section, .discussion-section,
@@ -95,5 +93,11 @@ body {
     grid-template-rows: 0px 1170px 800px 500px 1153px 669px 1550px 646px 923px 642px 340px;
     grid-template-areas: "header" "main" "full-development" "projects-industries" "projects" "discussion" "application-development-stages" "team-and-photo" "get-free-book" "faq" "footer";
     margin: 0;
+    max-width: 425px;
+  }
+  .main-section, .full-development-section, .projects-industries-section,
+  .projects-section, .application-development-stages-section, .discussion-section,
+  .team-and-photo-section, .get-free-book-section, .faq-section, .footer-section {
+    width: auto;
   }
 }/*# sourceMappingURL=result.css.map */

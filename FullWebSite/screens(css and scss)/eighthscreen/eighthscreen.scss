@@ -278,19 +278,18 @@
 
             .book-image {
                 position: relative;
-                width:300px;
-                height:520px;
-                margin-top: -310px;
-                margin-left: -50px;
+                width: 300px;
+                height: 520px;
+                margin: -310px 0px 0px -50px;
 
                 img {
                     position: absolute;
-                    top:50%;
-                    left:50%;
-                    transform:translate(-50%,-50%);
-                    width:300px;
-                    height:520px;
-                    object-fit:cover;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 300px;
+                    height: 520px;
+                    object-fit: cover;
                     padding-left: 0;
                 }
             }
@@ -314,10 +313,11 @@
             }
 
             .book-image {
+                margin: -371px 0px 0px -409px;
                 img {
                     height: 300.31px;
-                    left: -478px;
-                    top: 120px;
+                    left: 147px;
+                    top: 194px;
                 }
             }
         }

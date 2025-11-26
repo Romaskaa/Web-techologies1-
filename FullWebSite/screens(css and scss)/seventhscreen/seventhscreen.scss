@@ -91,7 +91,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        box-shadow: 0px 30px 20px #000000de;
+        box-shadow: 0px 30px 20px #000000a8;
     }
 
     svg {
@@ -188,13 +188,14 @@
             p:last-of-type {
                 width: 359px;
                 height: 60px;
+                margin-left: 0;
             }
 
             .team-info {
-                margin-top: 300px;
+                margin: 300px 0px 0px -14px;
                 width: 374px;
                 height: 58px;
-                gap: 48px;
+                gap: 36px;
                 padding-bottom: 20px;
 
                 .our-team-members, .our-team-projects, .our-team-in-it {

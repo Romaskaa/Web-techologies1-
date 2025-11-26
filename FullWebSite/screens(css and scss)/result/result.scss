@@ -10,11 +10,6 @@
 @import "../eighthscreen/eighthscreen.css";
 @import "../ninthscreen/ninthscreen.css";
 
-/*html, body {
-    overflow-x: hidden;
-}*/
-
-
 body{
     display: grid;
     grid-template-rows: 0px 900px 550px 510px 940px 350px 810px 582px 588px 600px 350px;
@@ -107,6 +102,7 @@ body{
         "footer";
         margin: 0;
         max-width: 768px;
+        overflow-x: hidden;
     }
 
     .main-section, .full-development-section, .projects-industries-section,
@@ -134,5 +130,12 @@ body{
         "faq"
         "footer";
         margin: 0;
+        max-width: 425px;
+    }
+
+    .main-section, .full-development-section, .projects-industries-section,
+    .projects-section, .application-development-stages-section, .discussion-section,
+    .team-and-photo-section, .get-free-book-section, .faq-section, .footer-section {
+        width: auto;
     }
 }

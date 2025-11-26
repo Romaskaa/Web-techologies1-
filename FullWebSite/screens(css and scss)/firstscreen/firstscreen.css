@@ -227,11 +227,17 @@
     position: absolute;
     top: 0;
     left: -350px;
-    width: 1400px;
-    height: 1200px;
+    width: 1120px;
+    height: 1138px;
     z-index: -1;
     transform: rotate(-12deg);
     overflow: hidden;
+  }
+  .bg-left, .bg-left::before {
+    background-position: 823px center;
+  }
+  .bg-right, .bg-right::before {
+    background-position: 1060px center;
   }
   .main-title {
     display: flex;
@@ -245,19 +251,19 @@
     top: 138px;
     margin-left: 95px;
   }
-  .main-title-h2 {
-    font-family: "Inter";
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 144%;
-    letter-spacing: 0.33px;
-  }
   .main-title p {
     font-family: "SF Pro Text";
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.24px;
+  }
+  .main-title-h2 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.33px;
   }
   .main-form {
     display: flex;
@@ -280,23 +286,14 @@
     width: 295px;
     height: 48px;
     font-family: "Inter";
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.38px;
     color: #101828;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
   .main-form h3 br {
     display: none;
-  }
-  .form-fields {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
   }
   .main-form button {
     display: flex;
@@ -326,28 +323,44 @@
     font-weight: 400;
     width: 224px;
   }
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media screen and (max-width: 425px) {
   @keyframes MoveUp {
     0% {
-      transform: scale(0.7) translateY(0);
+      transform: scale(0.98) translateY(0);
     }
     100% {
-      transform: scale(0.7) translateY(-100%);
+      transform: scale(0.98) translateY(-100%);
     }
   }
   @keyframes MoveDown {
     0% {
-      transform: scale(0.7) translateY(0);
+      transform: scale(0.98) translateY(0);
     }
     100% {
-      transform: scale(0.7) translateY(100%);
+      transform: scale(0.98) translateY(100%);
     }
+  }
+  .main {
+    width: 425px;
   }
   .background-container {
     position: absolute;
-    top: 450px;
-    left: -680px;
+    top: 390px;
+    left: 80px;
+    width: 400px;
+    height: 989px;
+  }
+  .bg-left, .bg-left::before {
+    background-position: 0px center;
+  }
+  .bg-right, .bg-right::before {
+    background-position: 210px center;
   }
   .main-title {
     display: flex;

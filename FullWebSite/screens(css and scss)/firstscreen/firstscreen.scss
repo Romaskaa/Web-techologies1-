@@ -229,11 +229,19 @@
         position: absolute;
         top: 0;
         left: -350px;
-        width: 1400px;
-        height: 1200px;
+        width: 1120px;
+        height: 1138px;
         z-index: -1;
         transform: rotate(-12deg);
         overflow: hidden;
+    }
+
+    .bg-left, .bg-left::before {
+        background-position: 823px center;
+    }
+
+    .bg-right, .bg-right::before {
+        background-position: 1060px center;
     }
 
     .main-title {
@@ -247,6 +255,14 @@
         left: -69px;
         top: 138px;
         margin-left: 95px;
+
+        p {
+            font-family: 'SF Pro Text';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: -0.24px;
+        }
     }
 
     .main-title-h2 {
@@ -255,14 +271,6 @@
         font-size: 28px;
         line-height: 144%;
         letter-spacing: 0.33px;
-    }
-
-    .main-title p {
-        font-family: 'SF Pro Text';
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
-        letter-spacing: -0.24px;
     }
 
     .main-form {
@@ -281,25 +289,51 @@
         border-radius: 12px;
         margin-top: 15px;
         margin-left: 95px;
-    }
 
-    .main-form h3 {
-        width: 295px;
-        height: 48px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.38px;
-        color: #101828;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
+        h3 {
+            width: 295px;
+            height: 48px;
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.38px;
+            color: #101828;
 
-    .main-form h3 br {
-        display: none;
+            br {
+                display: none;
+            }
+        }
+
+        button {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 11px 24px;
+            gap: 8px;
+            width: 160px;
+            height: 40px;
+            background: #2D66EE;
+            border-radius: 8px;
+            font-family: 'SF Pro Text';
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.154px;
+            color: #FFFFFF;
+        }
+
+        input {
+            padding: 6px 16px 6px 24px;
+            font-size: 14px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #E0E0E0;
+            font-family: "SF Pro Text";
+            font-size: 14px;
+            font-weight: 400;
+            width: 224px;
+        }
     }
 
     .form-fields {
@@ -307,62 +341,46 @@
         flex-direction: column;
         gap: 30px;
     }
-
-    .main-form button {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 11px 24px;
-        gap: 8px;
-        width: 160px;
-        height: 40px;
-        background: #2D66EE;
-        border-radius: 8px;
-        font-family: 'SF Pro Text';
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 18px;
-        letter-spacing: -0.154px;
-        color: #FFFFFF;
-    }
-
-    .main-form input {
-        padding: 6px 16px 6px 24px;
-        font-size: 14px;
-        box-sizing: border-box;
-        border: none;
-        border-bottom: 1px solid #E0E0E0;
-        font-family: "SF Pro Text";
-        font-size: 14px;
-        font-weight: 400;
-        width: 224px;
-    }
 }
 
 @media screen and (max-width: 425px) {
 
     @keyframes MoveUp {
         0% {
-            transform: scale(0.7) translateY(0);
+            transform: scale(0.98) translateY(0);
         }
         100% {
-            transform: scale(0.7) translateY(-100%);
+            transform: scale(0.98) translateY(-100%);
         }
     }
 
     @keyframes MoveDown {
         0% {
-            transform: scale(0.7) translateY(0);
+            transform: scale(0.98) translateY(0);
         }
         100% {
-            transform: scale(0.7) translateY(100%);
+            transform: scale(0.98) translateY(100%);
         }
+    }
+
+    .main {
+        width: 425px;
     }
 
     .background-container {
         position: absolute;
-        top: 450px;
-        left: -680px;
+        top: 390px;
+        left: 80px;
+        width: 400px;
+        height: 989px;
+    }
+
+    .bg-left, .bg-left::before {
+        background-position: 0px center;
+    }
+
+    .bg-right, .bg-right::before {
+        background-position: 210px center;
     }
 
     .main-title {
