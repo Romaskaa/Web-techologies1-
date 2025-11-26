@@ -1,7 +1,7 @@
-@import "../header/header.css";
-@import "../footer/footer.css";
-@import "../firstscreen/firstscreen.css";
-@import "../secondscreen/secondscreen.css";
+@import "../header/_header";
+@import "../_footer";
+@import "../_firstscreen";
+@import "../_secondscreen";
 
 body{
     display: grid;
