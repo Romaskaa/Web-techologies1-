@@ -1,14 +1,14 @@
-@import "../header/header.css";
-@import "../footer/footer.css";
-@import "../firstscreen/firstscreen.css";
-@import "../secondscreen/secondscreen.css";
-@import "../thirdscreen/thirdscreen.css";
-@import "../fourthscreen/fourthscreen.css";
-@import "../fifthscreen/fifthscreen.css";
-@import "../sixthscreen/sixthscreen.css";
-@import "../seventhscreen/seventhscreen.css";
-@import "../eighthscreen/eighthscreen.css";
-@import "../ninthscreen/ninthscreen.css";
+@import "../header/_header";
+@import "../_footer";
+@import "../_firstscreen";
+@import "../_secondscreen";
+@import "../_thirdscreen";
+@import "../_fourthscreen";
+@import "../_fifthscreen";
+@import "../_sixthscreen";
+@import "../_seventhscreen";
+@import "../_eighthscreen";
+@import "../_ninthscreen";
 
 body{
     display: grid;
