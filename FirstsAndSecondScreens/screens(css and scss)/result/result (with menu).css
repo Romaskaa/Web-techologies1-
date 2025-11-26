@@ -1,4 +1,3 @@
-@import "../fonts.css";
 @import "../../../fonts.css";
 body {
   background-color: #F2F4F7;
@@ -1043,6 +1042,76 @@ a {
     left: 68px;
     top: 1335px;
   }
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Bold"), local("Inter Bold"), url("../../../static/fonts/Inter-Bold.ttf") format("truetype"), url("../../../static/fonts/Inter-Bold.woff2") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Medium"), local("Inter Medium"), url("../../../static/fonts/Inter-Medium.ttf") format("truetype"), url("../../../static/fonts/Inter-Medium.woff2") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Regular"), local("Inter Regular"), url("../../../static/fonts/Inter-Regular.ttf") format("truetype"), url("../../../static/fonts/Inter-Regular.woff2") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-ExtraBold"), local("Inter Extra Bold"), url("../../../static/fonts/Inter-ExtraBold.ttf") format("truetype"), url("../../../static/fonts/Inter-ExtraBold.woff2") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-ExtraBoldItalic"), local("Inter Extra Bold Italic"), url("../../../static/fonts/Inter-ExtraBoldItalic.ttf") format("truetype"), url("../../../static/fonts/Inter-ExtraBoldItalic.woff2") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-Light"), local("Inter Light"), url("../../../static/fonts/Inter-Light.ttf") format("truetype"), url("../../../static/fonts/Inter-Light.woff2") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-LightItalic"), local("Inter Light Italic"), url("../../../static/fonts/Inter-LightItalic.ttf") format("truetype"), url("../../../static/fonts/Inter-LightItalic.woff2") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-SemiBold"), local("Inter Semi Bold"), url("../../../static/fonts/Inter-SemiBold.ttf") format("truetype"), url("../../../static/fonts/Inter-SemiBold.woff2") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter-SemiBoldItalic"), local("Inter Semi Bold Italic"), url("../../../static/fonts/Inter-SemiBoldItalic.ttf") format("truetype"), url("../../../static/fonts/Inter-SemiBoldItalic.woff2") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SFProText"), local("SFProText-Regular"), local("SFProText Regular"), url("../../../static/fonts/SFProText-Regular.ttf") format("truetype"), url("../../../static/fonts/SFProText-Regular.woff2") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SFProText"), local("SFProText-Medium"), local("SF Pro Text Medium"), url("../../../static/fonts/SFProText-Medium.ttf") format("truetype"), url("../../../static/fonts/SFProText-Medium.woff2") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SFProText"), local("SFProText-Semibold"), local("SF Pro Text Semibold"), url("../../../static/fonts/SFProText-Semibold.ttf") format("truetype"), url("../../../static/fonts/SFProText-Semibold.woff2") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SFProDisplay"), local("SFProDisplay-Regular"), local("SFProDisplay Regular"), url("../../../static/fonts/SFProDisplay-Regular.ttf") format("truetype"), url("../../../static/fonts/SFProDisplay-Regular.woff2") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SFProDisplay"), local("SFProDisplay-Semibold"), local("SFProDisplay Semibold"), url("../../../static/fonts/SFProDisplay-Semibold.ttf") format("truetype"), url("../../../static/fonts/SFProDisplay-Semibold.woff2") format("woff");
+  font-weight: 600;
 }
 body {
   display: grid;
