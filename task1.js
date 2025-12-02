@@ -1,7 +1,14 @@
-/*function pickPropArray (data, property) {
-    
+function pickPropArray (arr, property) {
+    let result = [];
+
+    for (let item of arr) {
+        if (item.hasOwnProperty(property)) {
+            result.push(item[property]);
+        }
+    }
+
+    return result
 }
-*/
 
 const students = [
     { name: 'Павел', age: 20 },
@@ -12,8 +19,7 @@ const students = [
     { age: 40 },
 ]
 
-let result = students.keys
-//const result = pickPropArray(students, 'name')
+const result = pickPropArray(students, 'name');
 
-console.log(result) 
+console.log(result);
 // [ 'Павел', 'Иван', 'Эдем', 'Денис', 'Виктория' ]
