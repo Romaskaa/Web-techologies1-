@@ -17,6 +17,7 @@
   width: 1em;
   height: 1em;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 .list-item__folder {
@@ -28,7 +29,9 @@
 }
 
 .list-item_open > .list-item__inner .list-item__arrow {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
-/*# sourceMappingURL=style.css.map */
+.list-item:not(.list-item_open) > .list-item__inner .list-item__arrow {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=style.css.map */
