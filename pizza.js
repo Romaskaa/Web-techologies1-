@@ -130,32 +130,62 @@ class Pizza {
     }
 };
 
-document.querySelector(".order-button").addEventListener("click", () => {
+const orderButton = document.querySelector(".order-button");
+const resultDiv = document.querySelector("#result");
+
+function updateCalculator() {
     const selectedType = document.querySelector("input[name='pizza']:checked");
     const selectedSize = document.querySelector("input[name='size']:checked");
     const selectedToppings = document.querySelectorAll("input[name='toppings']:checked");
-    const resultDiv = document.querySelector("#result");
+
+    if (!selectedType || !selectedSize) {
+        return;
+    }
+    
+    const pizza = new Pizza(selectedType.value, selectedSize.value);
+
+    selectedToppings.forEach(topping => {
+        pizza.addTopping(topping.value);
+    });
+
+    const totalPrice = pizza.calculatePrice();
+    const totalCalories = pizza.calculateCalories();
+
+    orderButton.innerHTML = `Добавить в корзину за <br> ${totalPrice} рублей (${totalCalories} кКалл)`;
+};
+
+document.querySelectorAll("input").forEach(input => {
+    input.addEventListener("change", updateCalculator);
+});
+
+orderButton.addEventListener("click", () => {
+    const selectedType = document.querySelector("input[name='pizza']:checked");
+    const selectedSize = document.querySelector("input[name='size']:checked");
+    const selectedToppings = document.querySelectorAll("input[name='toppings']:checked");
 
     if (!selectedType || !selectedSize) {
         alert("Пожалуйста, выберите вид и размер пиццы");
         return;
     }
-
+    
     const pizza = new Pizza(selectedType.value, selectedSize.value);
 
-    for (const topping of selectedToppings) {
+    selectedToppings.forEach(topping => {
         pizza.addTopping(topping.value);
-    }
+    });
 
-    if (selectedToppings.length === 0) {
+    if (selectedToppings.length === 0) { 
         resultDiv.innerHTML = `
         <p style="text-align: center; margin: 0px 0px; text-decoration: underline;">Ваш заказ</p> 
-        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()}.<br>
-        Цена: ${pizza.calculatePrice()} рублей. <br>Калории: ${pizza.calculateCalories()} ккал.`;
-    } else {
+        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()}.<br> 
+        Цена: ${pizza.calculatePrice()} рублей. <br>
+        Калории: ${pizza.calculateCalories()} кКалл.`; 
+    } else { 
         resultDiv.innerHTML = `
         <p style="text-align: center; margin: 0px 0px; text-decoration: underline;">Ваш заказ</p> 
-        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()} с добавками ${pizza.getToppings().map(t => t.toLowerCase()).join(", ")}.<br>
-        Цена: ${pizza.calculatePrice()} рублей. <br>Калории: ${pizza.calculateCalories()} ккал.`;
+        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()} 
+        с добавками ${pizza.getToppings().map(t => t.toLowerCase()).join(", ")}.<br> 
+        Цена: ${pizza.calculatePrice()} рублей. <br>
+        Калории: ${pizza.calculateCalories()} кКалл.`; 
     }
 });

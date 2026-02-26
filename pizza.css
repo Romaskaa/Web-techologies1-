@@ -21,6 +21,11 @@ h1 {
     font-family: 'Arial', sans-serif;
     color: #696307;
     text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    margin: 10px 0px;
 }
 
 .pizza-selector, .size-selector, .toppings-selector {
@@ -39,11 +44,11 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #696307;
+    background: #706907;
     color: rgba(255, 255, 255, 0.822);
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 35px;
+    margin-top: 15px;
     font-size: 20px;
 }
 
