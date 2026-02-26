@@ -129,33 +129,3 @@ class Pizza {
         return calories;
     }
 };
-
-document.querySelector(".order-button").addEventListener("click", () => {
-    const selectedType = document.querySelector("input[name='pizza']:checked");
-    const selectedSize = document.querySelector("input[name='size']:checked");
-    const selectedToppings = document.querySelectorAll("input[name='toppings']:checked");
-    const resultDiv = document.querySelector("#result");
-
-    if (!selectedType || !selectedSize) {
-        alert("Пожалуйста, выберите вид и размер пиццы");
-        return;
-    }
-
-    const pizza = new Pizza(selectedType.value, selectedSize.value);
-
-    for (const topping of selectedToppings) {
-        pizza.addTopping(topping.value);
-    }
-
-    if (selectedToppings.length === 0) {
-        resultDiv.innerHTML = `
-        <p style="text-align: center; margin: 0px 0px; text-decoration: underline;">Ваш заказ</p> 
-        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()}.<br>
-        Цена: ${pizza.calculatePrice()} рублей. <br>Калории: ${pizza.calculateCalories()} ккал.`;
-    } else {
-        resultDiv.innerHTML = `
-        <p style="text-align: center; margin: 0px 0px; text-decoration: underline;">Ваш заказ</p> 
-        ${pizza.getSize()} ${pizza.getStuffing().toLowerCase()} с добавками ${pizza.getToppings().map(t => t.toLowerCase()).join(", ")}.<br>
-        Цена: ${pizza.calculatePrice()} рублей. <br>Калории: ${pizza.calculateCalories()} ккал.`;
-    }
-});
