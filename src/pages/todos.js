@@ -66,8 +66,10 @@ const createTodoItem = (todo, listEl) => {
     deleteBtnEl.className = 'button todo-list__delete'
     deleteBtnEl.innerText = 'Удалить'
 
-    checkboxEl.addEventListener('change', async () => {
-        const nextCompleted = checkboxEl.checked
+    checkboxEl.addEventListener('click', async (event) => {
+        event.preventDefault()
+
+        const nextCompleted = !todo.completed
 
         checkboxEl.disabled = true
         deleteBtnEl.disabled = true
@@ -76,20 +78,19 @@ const createTodoItem = (todo, listEl) => {
             completed: nextCompleted
         })
 
-        if (!response.ok) {
-            checkboxEl.checked = !nextCompleted
-        } else {
+        if (response.ok) {
             const updatedTodo = extractTodo(response)
             todo.completed = updatedTodo?.completed ?? nextCompleted
-            checkboxEl.checked = Boolean(todo.completed)
 
-            if (checkboxEl.checked) {
-                descriptionEl.classList.add('todo-list__description_completed')
-            } else {
-                descriptionEl.classList.remove('todo-list__description_completed')
-            }
         }
+        checkboxEl.checked = Boolean(todo.completed)
 
+        if (checkboxEl.checked) {
+            descriptionEl.classList.add('todo-list__description_completed')
+        } else {
+            descriptionEl.classList.remove('todo-list__description_completed')
+        }
+        
         checkboxEl.disabled = false
         deleteBtnEl.disabled = false
     })
