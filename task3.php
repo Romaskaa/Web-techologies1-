@@ -1,33 +1,55 @@
 <?php
 
-function Summ(float $a, float $b) : float {
-    return $a + $b;
-}
+$letters = array(
+    'а' => 'a', 
+    'б' => 'b',
+    'в' => 'v',
+    'г' => 'g',
+    'д' => 'd',
+    'е' => 'e',
+    'ё' => 'yo',
+    'ж' => 'zh',
+    'з' => 'z',
+    'и' => 'i',
+    'й' => 'y',
+    'к' => 'k',
+    'л' => 'l',
+    'м' => 'm',
+    'н' => 'n',
+    'о' => 'o',
+    'п' => 'p',
+    'р' => 'r',
+    'с' => 's',
+    'т' => 't',
+    'у' => 'u',
+    'ф' => 'f',
+    'х' => 'h',
+    'ц' => 'c',
+    'ч' => 'ch',
+    'ш' => 'sh',
+    'щ' => 'sch',
+    'ь' => '',
+    'ы' => 'y',
+    'ъ' => '',
+    'э' => 'e',
+    'ю' => 'yu',
+    'я' => 'ya'
+);
 
-function Diff(float $a, float $b) : float {
-    return $a - $b;
-}
+function translate($string, $letters) {
+    $upper = array();
 
-function Mult(float $a, float $b) : float {
-    $result = $a * $b;
-    if ($result == 0.0) {
-        return 0.0;
+    foreach ($letters as $ru => $en) {
+        $upper[mb_strtoupper($ru)] = ucfirst($en);
     }
 
-    return $result;
+    $letters = array_merge($letters, $upper);
+
+    return str_replace(array_keys($letters), array_values($letters), $string);
 }
 
-function Div(float $a, float $b) : float {
-    if ($b == 0) {
-        return 0;
-    }
-
-    $result = $a / $b;
-    if ($result == 0.0) {
-        return 0.0;
-    }
-
-    return $result;
-}
+$string = "Доброе утро!";
+echo "Исходная строка: $string <br>";
+echo "Перевод: " . translate($string, $letters);
 
 ?>

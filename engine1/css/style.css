@@ -1,0 +1,17 @@
+﻿body {
+    background-color: green;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 4px 0;
+}
+
+li ul {
+    margin-top: 4px;
+    padding-left: 18px;
+}

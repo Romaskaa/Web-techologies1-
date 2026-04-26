@@ -1,21 +1,18 @@
 <?php
 
-$a = (int) -10;
-$b = (int) 20;
+$number = 0;
 
-if ($a >= 0 && $b >= 0) {
-    $difference = $a - $b;
-    echo "Разность между $a и $b: $difference";
-}
+do {
+    if ($number == 0) {
+        echo "$number – это ноль. <br>";
+    } elseif ($number % 2 == 0) {
+        echo "$number – это чётное число. <br>";
+    } else {
+        echo "$number – это нечётное число. <br>";
+    }
 
-if ($a < 0 && $b < 0) {
-    $product = $a * $b;
-    echo "Произведение $a и $b: $product";
-}
+    $number++;
 
-if (($a < 0 && $b >= 0) || ($a >= 0 && $b < 0)) {
-    $sum = $a + $b;
-    echo "Сумма $a и $b: $sum";
-}
+} while ($number <= 10);
 
 ?>

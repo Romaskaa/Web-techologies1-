@@ -1,20 +1,41 @@
 <?php
 
-function power(float $val, float $pow) : float{
-    if ($pow == 0) {
-        return 1;
+$regions = array(
+    "Московская область" => array("Москва", "Зеленоград", "Клин", "Королёв"),
+    "Ленинградская область" => array("Санкт-Петербург", "Всеволожск", "Павловск", "Кронштадт"),
+    "Рязанская область" => array("Рязань", "Касимов", "Скопин", "Ряжск")
+);
+
+foreach ($regions as $region => $cities) {
+
+    $i = 0;
+    $first = "К";
+    $count = 0;
+
+    foreach ($cities as $city) {
+        if ($first === mb_substr($city, 0, 1)) {
+            $count++;
+        }
     }
 
-    if ($pow < 0) {
-        return 1 / power($val, -$pow);
+    echo "$region: <br>";
+
+    foreach ($cities as $city) {
+
+        if ($first === mb_substr($city, 0, 1)) {
+            $i++;
+            echo "$city";
+
+            if ($i < $count) {
+                echo ", ";
+            } else {
+                echo ".";
+            }
+        }
+
     }
 
-    return $val * power($val, $pow - 1);
+    echo "<br>";
 }
-
-$val = -2.5;
-$pow = 9;
-
-echo "Число: " . $val . "<br> Степень: " . $pow . "<br> Результат: " . power($val, $pow);
 
 ?>
