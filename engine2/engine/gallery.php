@@ -47,9 +47,13 @@ function uploadGalleryImage($file, $imagesDir)
         return ['success' => false, 'message' => 'Выберите файл.'];
     }
 
-    // Проверка типа файла.
     if (!isset($types[$file['type']])) {
         return ['success' => false, 'message' => 'Можно загружать только JPG или PNG.'];
+    }
+
+    $maxFileSize = 5 * 1024 * 1024;
+    if ($file['size'] > $maxFileSize) {
+        return ['success' => false, 'message' => 'Файл слишком большой. Максимум 5 МБ.'];
     }
 
     if (!is_dir($imagesDir)) {
@@ -61,7 +65,7 @@ function uploadGalleryImage($file, $imagesDir)
     }
 
     $fileType = $types[$file['type']];
-    $fileName = 'image_' . date('YmdHis') . '_' . rand(1000, 9999) . '.' . $fileType;
+    $fileName = pathinfo($file['name'], PATHINFO_FILENAME) . '.' . $fileType;
     $bigImage = $imagesDir . '/' . $fileName;
     $smallImage = $imagesDir . '/thumbs/' . $fileName;
 
@@ -98,8 +102,6 @@ function resizeImage($from, $to, $newWidth, $fileType)
         imagejpeg($newImage, $to, 90);
     }
 
-    imagedestroy($source);
-    imagedestroy($newImage);
 }
 
 function logRequest($logFile)
