@@ -19,7 +19,7 @@ function renderMenu(array $itemsByParent, int $parentId = 0): string
 
     foreach ($itemsByParent[$parentId] as $item) {
         $id = (int) $item['id'];
-        $title = $item['title'];
+        $title = htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8');
         $children = renderMenu($itemsByParent, $id);
         $hasChildren = $children !== '';
 
@@ -53,16 +53,16 @@ function renderMenu(array $itemsByParent, int $parentId = 0): string
 }
 ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>List Item</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="list-items" id="list-items">
     <?= renderMenu($itemsByParent) ?>
 </div>
-<script type="module" src="script.js"></script>
+<script type="module" src="js/script.js"></script>
 </body>
 </html>
