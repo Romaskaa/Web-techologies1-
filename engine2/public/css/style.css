@@ -250,9 +250,3 @@ body {
 .button-danger {
     background: #b42318;
 }
-
-@media (max-width: 720px) {
-    .product-detail-layout {
-        grid-template-columns: 1fr;
-    }
-}
